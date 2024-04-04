@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/border"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textViewJobId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job ID: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewBuilding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Building: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewFloor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Floor: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewRoomType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Room Type: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAssignedSupervisors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assigned Supervisors: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewFromDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Date: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewToDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Date: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

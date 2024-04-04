@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">House</string>
+    <string-array name="room_types_array">
+        <item>Class Room</item>
+        <item>Office Room</item>
+        <item>Staff Room</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Week1</item>
+        <item>Week2</item>
+        <item>Week3</item>
+        <item>Week4</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

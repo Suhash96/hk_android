@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Figma"
+        tools:targetApi="31">
+        <activity
+            android:name=".StoreKeeperProfile"
+            android:exported="false" />
+        <activity
+            android:name=".settingsStoreKeeper"
+            android:exported="false" />
+        <activity
+            android:name=".SupervisorProfile"
+            android:exported="false" />
+        <activity
+            android:name=".settingsSupervisor"
+            android:exported="false" />
+        <activity
+            android:name=".ManagerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Jobs"
+            android:exported="false" />
+        <activity
+            android:name=".AssignWorkDates"
+            android:exported="false" />
+        <activity
+            android:name=".ItemsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AssetsHistory"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RequestedAssets"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StoreKeeperHome"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StoreKeeperLogin"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RequestAssets"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssignWorkWorkers"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SupervisorHome"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SupervisorLogin"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewRatingsSupervisors"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RateSupervisor"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SupervisorJobId"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AssignWork"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ManagerHome"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ManagerLogin"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsRooms"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsManager"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RemoveManager"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ManageManager"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RemoveWorker"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsWorker"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".settings"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ManageWorker"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RemoveSupervisor"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsSupervisor"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ManageSupervisor"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ManageEmployee"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
